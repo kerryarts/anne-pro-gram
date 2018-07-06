@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AnneProGram.Firmware\AnneProGram.Firmware.csproj">
+      <Project>{ada68093-4d7a-463e-a739-67c77fafbad1}</Project>
+      <Name>AnneProGram.Firmware</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
