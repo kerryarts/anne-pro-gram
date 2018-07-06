@@ -4,6 +4,7 @@
 	{
 		public static readonly FirmwareMod[] Values = new[]
 		{
+			new FirmwareMod("CtrlCtrl-FnCtrl", ByteReplacement.For(0X42F20101, 0X40F20141)), // Switch Layout. Ctrl+Ctrl > Fn+Ctrl
 			new FirmwareMod("FnR-FnQ", ByteReplacement.For(0XBAF1120F, 0XBAF10F0F)), // RGB. 0x12 (18) > 0x0F (15)
 			new FirmwareMod("FnT-FnZ", ByteReplacement.For(0XBAF1130F, 0XBAF12B0F)), // RAT. 0x13 (19) > 0x2B (43)
 			new FirmwareMod("FnY-FnX", ByteReplacement.For(0XBAF1140F, 0XBAF12C0F)), // BRT. 0x14 (20) > 0x2C (44)
