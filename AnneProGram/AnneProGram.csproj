@@ -53,6 +53,10 @@
       <Project>{ada68093-4d7a-463e-a739-67c77fafbad1}</Project>
       <Name>AnneProGram.Firmware</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Util\Util.csproj">
+      <Project>{EA34B0D4-1FDC-4397-AABE-CBCB8F4DE644}</Project>
+      <Name>Util</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -2,6 +2,7 @@
 using System;
 using System.IO;
 using System.Linq;
+using Util;
 
 namespace AnneProGram
 {
@@ -34,12 +35,7 @@ namespace AnneProGram
 					editor.ApplyMod(mod);
 
 				var outputBytes = editor.GetBytes();
-
-				var inputFolder = Path.GetDirectoryName(inputFilePath);
-				var inputFileName = Path.GetFileNameWithoutExtension(inputFilePath);
-				var inputFileExtension = Path.GetExtension(inputFilePath);
-				var outputFileName = $"{inputFileName}_{string.Join("_", mods.Select(m => m.Name))}{inputFileExtension}";
-				var outputFilePath = Path.Combine(inputFolder, outputFileName);
+				var outputFilePath = PathUtil.AppendFileName(inputFilePath, "_" + mods.Select(m => m.Name).Join("_"));
 
 				File.WriteAllBytes(outputFilePath, outputBytes);
 
