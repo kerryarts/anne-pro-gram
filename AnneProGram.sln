@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnneProGram", "AnneProGram\AnneProGram.csproj", "{FEB88385-73F5-455A-B2F3-E491839FC29E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnneProGram.Layout", "AnneProGram.Layout\AnneProGram.Layout.csproj", "{CEB203E7-D69E-4D6A-B229-D5489D07D73C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnneProGram.Firmware", "AnneProGram.Firmware\AnneProGram.Firmware.csproj", "{ADA68093-4D7A-463E-A739-67C77FAFBAD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnneProGram.Bluetooth", "AnneProGram.Bluetooth\AnneProGram.Bluetooth.csproj", "{1A0CB24A-57A4-4AA8-8748-F308654E18CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnneProGram.Backlight", "AnneProGram.Backlight\AnneProGram.Backlight.csproj", "{8C4A1B8B-9F1B-4C91-8637-9BF7D49D1D6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{EA34B0D4-1FDC-4397-AABE-CBCB8F4DE644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{FEB88385-73F5-455A-B2F3-E491839FC29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEB88385-73F5-455A-B2F3-E491839FC29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEB88385-73F5-455A-B2F3-E491839FC29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB203E7-D69E-4D6A-B229-D5489D07D73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB203E7-D69E-4D6A-B229-D5489D07D73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB203E7-D69E-4D6A-B229-D5489D07D73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB203E7-D69E-4D6A-B229-D5489D07D73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA68093-4D7A-463E-A739-67C77FAFBAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA68093-4D7A-463E-A739-67C77FAFBAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA68093-4D7A-463E-A739-67C77FAFBAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA68093-4D7A-463E-A739-67C77FAFBAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0CB24A-57A4-4AA8-8748-F308654E18CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0CB24A-57A4-4AA8-8748-F308654E18CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0CB24A-57A4-4AA8-8748-F308654E18CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0CB24A-57A4-4AA8-8748-F308654E18CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4A1B8B-9F1B-4C91-8637-9BF7D49D1D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4A1B8B-9F1B-4C91-8637-9BF7D49D1D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4A1B8B-9F1B-4C91-8637-9BF7D49D1D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4A1B8B-9F1B-4C91-8637-9BF7D49D1D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA34B0D4-1FDC-4397-AABE-CBCB8F4DE644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA34B0D4-1FDC-4397-AABE-CBCB8F4DE644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA34B0D4-1FDC-4397-AABE-CBCB8F4DE644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA34B0D4-1FDC-4397-AABE-CBCB8F4DE644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
